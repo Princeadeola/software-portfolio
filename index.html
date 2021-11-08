@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adesipe Adeola</title>
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://teobais.github.io/percircle/dist/js/percircle.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<link rel="stylesheet" type="text/css" href="https://teobais.github.io/percircle/dist/css/percircle.css">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<input type="checkbox" id="menu-toggle">
+		
+		<header>
+			<h3>Adeola A.<small></small></h3>
+			
+			<div class="main-menu">
+
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#contact">Contact</a></li>
+
+					<li class="hide-sm"><a href="https://github.com/Princeadeola"><span class="fab fa-github"></span></a></li>
+					<li class="hide-sm"><a href="https://www.linkedin.com/in/adesipe-lateef-adeola-3a5541197/"><span class="fab fa-linkedin"></span></a></li>
+					<li class="hide-sm"><a href="https://www.instagram.com/princeadeola234"><span class="fab fa-instagram"></span></a></li>
+					<li><span class="fas fa-stop-circle" id="icon"></span></li>
+				</ul>
+			</div>
+
+			<label for="menu-toggle">
+				<span class="fas fa-bars"></span>
+			</label>
+		</header>
+
+		<div class="hero">
+			<div>
+				<h1>Welcome <br>I am Adeola.</h1>
+				<p>I am a software engineer</p>
+				<a href="#contact"><span class="fas fa-sms"></span>Contact now</a>
+
+			</div>
+
+			<img src="images/me2.png" alt="">
+		</div>
+	</div>
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line right"></div>
+	</div>
+
+	<!-- institutional -->
+	<div class="wrapper">
+		
+		<section id="about">
+			<div class="section-title">
+				<h1>Why choose me?</h1>
+				<small>This is my story of how and why I am the best candidate for your business transformation to the web.</small>
+			</div>
+
+			<div class="vid-wrapper" style="background-image: url(images/0.jpg)">
+				<div class="control-btn">
+					<span class="fas fa-play"></span>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line left"></div>
+	</div>
+
+	<!-- Main skills -->
+	<div class="wrapper">
+		
+		<section id="skills">
+			<div class="section-title">
+				<h1>Main Skills</h1>
+				<small>Commitment and creativity has brought me this far and I have not been left out from creating and delivering the best.</small>
+			</div>
+
+			<div class="skills-wrapper">
+
+				<div class="skill">
+					<div data-percent="90" id="pie-1"></div>
+					<p>FrontEnd Developer</p>
+				</div>
+
+				<div class="skill">
+					<div data-percent="95" id="pie-2"></div>
+					<p>WordPress Design</p>
+				</div>
+
+				<div class="skill">
+					<div data-percent="50" id="pie-3"></div>
+					<p>Java Developer</p>
+				</div>
+
+				<div class="skill">
+					<div data-percent="100" id="pie-4"></div>
+					<p>Web and Java Tutor</p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line right"></div>
+	</div>
+
+	<!-- portfolio -->
+	<div class="wrapper">
+		
+		<section id="portfolio">
+			<div class="section-title">
+				<h1>Portfolio</h1>
+				<small>Creativity is my key of progress, these are some of my projects with live link. For more check out my github <a href="https://github.com/Princeadeola" class="github">CLICK HERE</a></small>
+			</div>
+
+			<div class="portfolio-wrapper">
+				<div class="bg-wrap left"></div>
+				<div class="bg-wrap right" id="bg-right"></div>
+
+				<div class="portfolio">
+					<h3>Front-End development</h3>
+					<small>Best in the industry design for Travel Agency</small>
+
+					<div style="background-image: url(images/1.png);"></div>
+				</div>
+
+				<div class="portfolio">
+					<h3>Mobile development</h3>
+					<small>Developed and tested before submitted</small>
+
+					<div style="background-image: url(images/3.jpg);"></div>
+				</div>
+
+				<div class="portfolio">
+					<h3>WordPress Design</h3>
+					<small>An exceptional design for an University website</small>
+
+					<div style="background-image: url(images/2.jpg);"></div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line left"></div>
+	</div>
+
+	<!-- services -->
+	<div class="wrapper">
+		
+		<section id="services">
+			<div class="section-title">
+				<h1>My Service</h1>
+				<small>Every client is a piority and have never stopped to keep to timing with required results.</small>
+			</div>
+
+			<div class="services-grid">
+				<div class="bg-wrap left"></div>
+				<div class="bg-wrap right"></div>
+
+				
+				<div class="service" id="first">
+					<h3>Front-End Developer</h3>
+					<span class="fas fa-globe"></span>
+					<p>Build amazing websites with the following technologies, HTML CSS JavaScrip React.</p>
+				</div>
+
+				<div class="service" id="second">
+					<h3>WordPress Design</h3>
+					<span class="fab fa-wordpress"></span>
+					<p>With the current record of 42% of websites being built with wordpress, I have aquired every skill required to deliever the best.</p>
+				</div>
+
+				<div class="service" id="third">
+					<h3>Android Development</h3>
+					<span class="fab fa-android"></span>
+					<p>More than just creating an app, I am focused at creating an engaging app for every user in other to retain your customers.</p>
+				</div>
+
+				<div class="service" id="fourth">
+					<h3>Web and Java Tutor</h3>
+					<span class="fas fa-chalkboard-teacher"></span>
+					<p>The skill of understanding and engagement have helped increased my students performance with over 50% in 2 months.</p>
+				</div>
+
+				<div class="service" id="fifth">
+					<h3>Project Collaborations</h3>
+					<span class="fas fa-people-carry"></span>
+					<p>Collaborations is an effective way of learning and working with amazing minds, I have 1+ year experince in collaborating projects</p>
+				</div>
+
+				<div class="service" id="sixth">
+					<h3>Speaker</h3>
+					<span class="fab fa-teamspeak"></span>
+					<p>Technology has been an important follow up I am always updated with and I am available to share and help people understand technogies.</p>
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line right"></div>
+	</div>
+
+	<!-- Brands -->
+	<div class="wrapper">
+		<section>
+			<div class="section-title">
+				<small>Working with these technologies in creating and developments.</small>
+			</div>
+		
+		<section>
+			<div class="brands">
+				<span class="fab fa-react"></span>
+				<span class="fab fa-js-square"></span>
+				<span class="fab fa-java"></span>
+				<span class="fab fa-html5"></span>
+				<span class="fab fa-css3"></span>
+				<span class="fab fa-wordpress"></span>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- divide -->
+	<div class="page-divide">
+		<div class="divide"></div>
+		<div class="divide-line left"></div>
+	</div>
+
+	<div class="wrapper">
+		
+		<section id="contact">
+			<div class="contact-grid">
+				<div class="form-wrapper">
+					<div class="form-title">
+						<h2><span>Let</span>s talk?</h2>
+						<small>Don't wait until tomorrow, speak to me today to start leveraging your business</small>
+
+						<div class="form-progress">
+							<div class="progress active">
+								<div>
+									<span></span>
+									<span>1</span>
+								</div>
+							</div>
+
+							<div class="progress">
+								<div>
+									<span></span>
+									<span>2</span>
+								</div>
+							</div>
+
+							<div class="progress">
+								<div>
+									<span></span>
+									<span>3</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="form">
+							<form action="">
+								<div class="form-group">
+									<input type="text" placeholder="Enter your name" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<input type="email" placeholder="Enter your email" class="form-control">
+								</div>
+
+								<div class="form-group">
+									<textarea rows="5" cols="16" placeholder="Message"></textarea>
+								</div>
+
+								<div class="form-group">
+									<button type="button">Next</button>
+								</div>
+
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="contact-img" style="background-image: url(images/5.jpg);"></div>
+			</div>
+		</section>
+	</div>
+
+
+	<!-- Footer -->
+	<footer>
+		<div class="wrapper">
+			<div class="footer-grid">
+				<div class="about">
+					<h3>About</h3>
+					<small>Creativity Competence Team-Work Respect Excellence are my deliveries.</small>
+
+					<div class="socials">
+						<a href="https://www.instagram.com/princeadeola234/"><span class="fab fa-instagram"></span></a>
+
+						<a href="https://github.com/Princeadeola"><span class="fab fa-github"></span></a>
+
+						<span class="fab fa-discord"></span>
+
+						<a href="https://www.linkedin.com/in/adesipe-lateef-adeola-3a5541197/"><span class="fab fa-linkedin"></span></a>
+					</div>
+				</div>
+
+				<div class="links">
+					<h3>Get in touch</h3>
+					
+					<ul>
+						<li><span class="fas fa-phone"></span>+234-902-927-1766</li>
+						<li><span class="fas fa-envelope"></span>princeadeola234@gmail.com</li>
+						<li><span class="fas fa-map-marker"></span>Lagos state, Nigeria.</li>
+					</ul>
+
+					<button class="btn"><span class="fas fa-sms"></span>Send a message</button>
+				</div>
+
+				<div class="links">
+					<h3>Our services</h3>
+					
+					<ul>
+						<li>Web Development</li>
+						<li>Mobile Development</li>
+						<li>WordPress Design</li>
+						<li>Web and Java Tutor</li>
+					</ul>
+				</div>
+
+				<div class="links">
+					<h3>Quick Links</h3>
+					
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Portfolio</a></li>
+						<li><a href="">Service</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- copy right -->
+	<div class="wrapper">
+		<div class="copyright">
+			<p>&copy; Adesipe Adeola 2021. All rights reserved</p>
+		</div>
+	</div>
+	
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+	    $(function(){
+	        $("#pie-1").percircle({ progressBarColor: '#6179d5' });
+	        $("#pie-2").percircle({ progressBarColor: '#6179d5' });
+	        $("#pie-3").percircle({ progressBarColor: '#6179d5' });
+	        $("#pie-4").percircle({ progressBarColor: '#6179d5' });
+	    });
+
+	    var icon = document.getElementById('icon');
+	    icon.onclick = function () {
+	    	document.body.classList.toggle("light-theme");
+	    }
+	</script>
+
+</body>
+</html>
